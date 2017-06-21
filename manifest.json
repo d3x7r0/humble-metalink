@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Humble Metalink",
+  "version": "1.0",
+  "description": "Gets all available humble bundle download links and saves a metalink file for them",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "page_action": {
+    "default_icon": "icons/icon_down.png",
+    "default_title": "Humble Metalink",
+    "browser_style": true
+  },
+  "icons": {
+    "60": "icons/icon_down.png"
+  },
+  "applications": {
+    "gecko": {
+      "id": "humble-metalink@nonsensebb.com"
+    }
+  }
+}
